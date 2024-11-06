@@ -1,0 +1,31 @@
+$primary: #fe6a0e;
+$secondary: #815040;
+$success:  darkgreen;
+$danger:  darkred;
+// $info: #d8e6ff;
+$warning:  #ffa400;
+// $light: #f0f5ff;
+// $tertiary: #eeeae9;
+// $dark:  dimgrey;
+
+// primary: "#fe6a0e",
+//     primarydark: "#f24300",
+//     secondary: "#fdbb0a",
+//     secondarydark: "#ffa400",
+//     third: "#976856",
+//     thirddark: "#815040",
+
+@import "../../../node_modules//bootstrap/scss/bootstrap.scss";
+
+
+.nav-item .nav-link{
+  &.active{
+    @extend .text-white;
+    @extend .fw-bold;
+
+  }
+}
+
+.btn-primary {
+  @extend .text-white;
+}

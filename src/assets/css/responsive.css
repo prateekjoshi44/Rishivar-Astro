@@ -1,0 +1,70 @@
+/* Default styles */
+body {
+  font-size: 1rem; /* Equivalent to 16px */
+}
+
+p {
+  font-size: 0.875rem; /* Equivalent to 14px */
+}
+
+h3 {
+  font-size: 1rem; /* Relative to parent element */
+}
+
+h1 {
+  font-size: 1.5rem; /* Equivalent to 24px */
+}
+
+h2 {
+  font-size: 1.25rem; /* Relative to parent element */
+}
+
+/* Styles for min-width: 576px */
+@media (min-width: 576px) {
+  /* Increase font sizes for larger screens */
+  body {
+    font-size: 1.25rem; /* Equivalent to 20px */
+  }
+
+  h1 {
+    font-size: 2rem; /* Equivalent to 32px */
+  }
+
+  p {
+    font-size: 1.25rem; /* Equivalent to 20px */
+  }
+
+  /* Decrease font sizes for smaller screens */
+  h2 {
+    font-size: 1.7rem; /* Equivalent to 24px */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Equivalent to 16px */
+  }
+}
+
+/* Styles for min-width: 992px */
+@media (min-width: 992px) {
+  /* Decrease font sizes for larger screens */
+  body {
+    font-size: 1.25rem; /* Equivalent to 12.8px */
+  }
+
+  h1 {
+    font-size: 1.375rem; /* Equivalent to 22px */
+  }
+
+  p {
+    font-size: 0.7rem; /* Equivalent to 11.2px */
+  }
+
+  /* Decrease font sizes for smaller screens */
+  h2 {
+    font-size: 1.125rem; /* Equivalent to 18px */
+  }
+
+  h3 {
+    font-size: 0.9rem; /* Equivalent to 14.4px */
+  }
+}

@@ -1,0 +1,49 @@
+.timer {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6b6b, #ffcc00);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.timer:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.active-chat-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-content {
+  margin-top: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-rotate {
+  animation: rotate 1s linear infinite;
+}

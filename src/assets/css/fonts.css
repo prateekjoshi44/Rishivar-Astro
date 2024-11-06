@@ -1,0 +1,49 @@
+@font-face {
+    font-family: font-poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: font-poppins-bold;
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+* {
+    font-family: font-poppins;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+} */
+
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+
+.fs-11 {
+    font-size: 11px !important;
+}
+
+.fw-700{
+    font-family: font-poppins-bold;
+    font-weight: 1000 !important;
+}
+
+/* .icon { */
+    /* display: inline-block; */
+    /* font-size: inherit; */
+    /* Inherits font-size from its parent, like an icon font */
+    /* width: 1em; */
+    /* Scales based on the font-size */
+    /* height: 1em; */
+    /* Scales based on the font-size */
+    /* color: inherit; */
+    /* Inherits text color from its parent */
+/* } */

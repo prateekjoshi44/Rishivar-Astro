@@ -1,0 +1,49 @@
+.timerV1 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent; /* Updated background to transparent */
+  padding: 10px 20px;
+  border-radius: 0px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 1s ease;
+}
+
+.timerV1:hover {
+  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); */
+}
+
+.active-chat-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* background-color: white; */
+  z-index: 10;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.chat-content {
+  margin-top: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-rotate {
+  animation: rotate 1s linear infinite;
+}

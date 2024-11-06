@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  rishivar-astro-react-app:
+    image: rishivar-astro-react-app
+    container_name: rishivar-astro-react-app
+    build: .
+    networks:
+      - mysql-common
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 50m
+
+networks:
+  mysql-common:
+    external: true
